@@ -25,6 +25,7 @@ create an Android Application in android studio
 
 step 4
 create an xml folder under /app/res folder and under this folder create a file  app_tracker.xml and paste these lines
+
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- End current session if app sleeps for a period of time -->
