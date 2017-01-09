@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         btn_track_exception=(AppCompatButton)findViewById(R.id.btn_exception);
         btn_track_exception.setOnClickListener(trackExceptionListener);
         btn_track_crashes=(AppCompatButton)findViewById(R.id.btn_track_crashes);
+        btn_track_crashes.setOnClickListener(trackCrashesListener);
     }
 
     @Override
