@@ -12,3 +12,10 @@ default implementation of google analytics provides following following for your
 5 . Geography
 
 Google analytics in Android
+
+step 1
+create account if account does not exist on google analytics console
+https://analytics.google.com/analytics/web/
+
+step 2
+create an android app and get your application tracking ID and configuration file from firabase console
