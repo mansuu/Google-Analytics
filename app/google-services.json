@@ -1,0 +1,38 @@
+{
+  "project_info": {
+    "project_number": "136224052081",
+    "project_id": "trackyourapp"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136224052081:android:2e4471d70806b320",
+        "android_client_info": {
+          "package_name": "com.trackyourapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKCxcp0MiLuloDH8iM9g1hUf6w0rdQ8v8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 2,
+          "analytics_property": {
+            "tracking_id": "UA-90031257-1"
+          }
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
