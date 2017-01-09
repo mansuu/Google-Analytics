@@ -5,7 +5,7 @@
 
     <!-- Enable automatic Activity measurement -->
     <bool name="ga_autoActivityTracking">true</bool>
-   
+    <screenName name="com.trackyourapp.activities.MainActivity">Home Screen</screenName>
 
     <!--  The property id associated with this analytics tracker -->
     <string name="ga_trackingId">UA-90031257-1</string>

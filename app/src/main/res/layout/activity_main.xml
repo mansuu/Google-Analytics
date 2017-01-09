@@ -20,5 +20,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Track Exception" />
+    <android.support.v7.widget.AppCompatButton
+        android:layout_below="@+id/btn_exception"
+        android:id="@+id/btn_track_crashes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track crashes" />
 </RelativeLayout>
 </RelativeLayout>

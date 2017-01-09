@@ -4,12 +4,13 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.AppCompatButton;
 import android.view.View;
+import android.widget.Toast;
 
 import com.trackyourapp.R;
 import com.trackyourapp.application.TrackMyApplication;
 
 public class MainActivity extends AppCompatActivity {
-    private AppCompatButton btn_track_event,btn_track_exception;
+    private AppCompatButton btn_track_event,btn_track_exception,btn_track_crashes;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         btn_track_event.setOnClickListener(trackEventListener);
         btn_track_exception=(AppCompatButton)findViewById(R.id.btn_exception);
         btn_track_exception.setOnClickListener(trackExceptionListener);
+        btn_track_crashes=(AppCompatButton)findViewById(R.id.btn_track_crashes);
     }
 
     @Override
@@ -50,6 +52,18 @@ public class MainActivity extends AppCompatActivity {
                 TrackMyApplication.getInstance().trackException(ex);
             }
 
+        }
+    };
+    /**
+     * CLICK LISTENER FOR CRASH TRACKING
+     */
+    View.OnClickListener trackCrashesListener=new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            String str=null;
+            if(!str.equalsIgnoreCase("track crashes")){
+                Toast.makeText(MainActivity.this,"crash detected",Toast.LENGTH_SHORT).show();
+            }
         }
     };
 }
